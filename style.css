@@ -1,0 +1,117 @@
+
+#player{
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 300px;
+}
+header img{
+    margin-top: 20px;
+    height: 140px;
+    object-fit: contain;
+}
+header h2{
+    font-size: 25px;
+    margin: 20px 0;
+    color: white
+}
+header p {
+    font-size: 20px;
+    color: white
+}
+/* #content{
+    background-color: aliceblue;
+} */
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#buttons img{
+
+    margin: 0 15px;
+}
+
+#volume{
+    text-align: center;
+}
+
+#volume input{
+    width: 100%;
+
+}
+input[type="range" i] {
+    appearance: none;
+    height: 5px;
+    background: #e1e1e1;
+}
+input[type="range" i]::-webkit-slider-thumb{
+    appearance: none;
+    background: #ff6565;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+h2{
+    margin: 15px 0;
+}
+
+#theme{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#DarkMode{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(45deg, #000000, #000000a3);
+    color: aliceblue;
+}
+
+#LightMode{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(45deg, #ebebeb, #0000002e);
+    color: black;
+}
+#color{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#color button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#color1{
+    border: 1px solid rgb(37, 37, 37);
+    background: linear-gradient(45deg, #2ec7b2, #132614);
+}
+
+#color2{
+    border: 1px solid rgb(37, 37, 37);
+    background: rgb(179 74 74);
+}
+
+#color3{
+    border: 1px solid rgb(37, 37, 37);
+    background: rgb(98 133 92);
+}
+
+#color4{
+    border: 1px solid rgb(37, 37, 37);
+    background: rgb(92 95 133); 
+}
